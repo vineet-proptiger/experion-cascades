@@ -29,14 +29,10 @@ const Footer = () => (
       {/* ── Developer Description ── */}
       <div 
         data-aos="fade-up" data-aos-delay="100"
-        className="text-[#a1a1aa] text-[13.5px] sm:text-[15px] md:text-[16px] leading-[1.8] max-w-[920px] mb-8 sm:mb-10"
+        className="text-[#a1a1aa] text-[13.5px] sm:text-[15px] md:text-[16px] leading-[1.8] max-w-[920px] mb-8 sm:mb-10 text-justify"
       >
-        <p className="m-0">
           Experion Gurgaon is a reputed real estate developer known for delivering high-quality residential and commercial projects across India. The company focuses on innovation, sustainability, and customer satisfaction in every development.
-        </p>
-        <p className="m-0">
           Experion Gurgaon has built a strong reputation for transparency, superior construction standards, and thoughtfully designed communities. Each project reflects the developer&apos;s commitment to excellence and modern urban living.
-        </p>
       </div>
 
       {/* ── RERA Number Box ── */}
