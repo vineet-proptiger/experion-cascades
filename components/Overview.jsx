@@ -39,19 +39,19 @@ const Overview = ({ setIsOpen }) => {
               <div className="mb-5 pr-0 lg:pr-6">
                 <div className={`text-[#6c757d] text-[15px] leading-[1.7] text-justify ${!isExpanded ? 'line-clamp-5 overflow-hidden' : ''}`}>
                   <p className="m-0">
-                    After the success of Experion The Trillion, they launched Experion Cascades, which is located in Sector 88A, Dwarka Expressway, Gurgaon. It is developed by the Experion Group, known for luxury residential and commercial projects.
+                    Developed by the reputed Experion Group, Experion Cascades is an iconic luxury development located in Sector 88A, Dwarka Expressway, Gurgaon.
                   </p>
                   <p className="m-0">
-                    The residential project is spread over a 7.8 acres of land parcel, divided into multiple phases. The first phase covers four high-rise towers with a G+40 floor structure. It also provides 4 to a core luxury apartment with only 650 units.
+                    Spread across 7.8 acres, the project features four G+40 high-rise towers offering exclusive 4 to a core luxury residences with only 320 units.
                   </p>
                   <p className="m-0">
-                    Experion Cascades Sector 88A offers 3, 3.5 and 4 BHK spacious apartments with sizes ranging from 1950 to 3050 sq. ft. It is under the HRERA registration project, and the RERA number is coming soon.
+                    It offers spacious 3, 3.5 and 4BHK apartments ranging from 2100 to 3200 sq. ft. under HRERA registration, with the RERA number coming soon.
                   </p>
                   <p className="m-0">
-                    Apart from this, it offers a premium clubhouse spread over 1.75 lakh sq. ft., based on a forest theme. It offers luxury amenities such as a kids' play area, swimming pool, modular kitchen, jogging track, sports complex, multipurpose hall, and more.
+                    The project features a 3-floor multi-level clubhouse spread over 70,000 sq. ft. based on a forest theme with premium recreational amenities.
                   </p>
                   <p className="m-0">
-                    At Experion Sector 88A Gurgaon, you will get excellent connectivity to the Dwarka Expressway, IGI Airport, Diplomatic Enclave II, and Cyber City. It is also close to schools, healthcare facilities, shopping malls, and commercial spaces.
+                    Enjoy seamless connectivity to Dwarka Expressway, IGI Airport, Diplomatic Enclave II, and Cyber City, close to top schools and hubs.
                   </p>
                   
                   
@@ -111,7 +111,7 @@ const Overview = ({ setIsOpen }) => {
                   </div>
                   <div>
                     <h5 className="text-[#222222] font-bold text-[13.5px] sm:text-[16px] mb-1 leading-snug">Luxury Clubhouse</h5>
-                    <p className="text-[#6c757d] text-[12px] sm:text-[14px] m-0 leading-normal">1.75 Lakh Sq. Ft.</p>
+                    <p className="text-[#6c757d] text-[12px] sm:text-[14px] m-0 leading-normal">70,000 Sq. Ft.</p>
                   </div>
                 </div>
               </div>

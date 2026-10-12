@@ -21,7 +21,7 @@ const faqData = [
   {
     question: 'How tall is Experion Cascades and how many towers does it have?',
     answer:
-      'Experion Cascades is a premium high-rise development spread across 7.8 acres featuring 4 high-rise towers with a G+40 floor structure and exclusive 4 to a core luxury apartments (approx. 650 units).',
+      'Experion Cascades is a premium high-rise development spread across 7.8 acres featuring 4 high-rise towers with a G+40 floor structure and exclusive 4 to a core luxury apartments (approx. 320 units).',
   },
   {
     question: 'Where exactly is Experion Cascades located?',
@@ -34,7 +34,7 @@ const faqData = [
   {
     question: 'Is Experion Cascades a good investment?',
     answer:
-      "Yes, Experion Cascades is considered a prime investment opportunity due to its strategic location in Sector 88A on the Dwarka Expressway corridor, expansive 1.75 lakh sq. ft. forest-themed clubhouse, luxury specifications, and high capital appreciation potential in New Gurgaon.",
+      "Yes, Experion Cascades is considered a prime investment opportunity due to its strategic location in Sector 88A on the Dwarka Expressway corridor, expansive 70,000 sq. ft. forest-themed multi-level clubhouse, luxury specifications, and high capital appreciation potential in New Gurgaon.",
   },
 ]
 

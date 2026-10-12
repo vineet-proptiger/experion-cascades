@@ -9,7 +9,7 @@ const highlights = [
   },
   {
     title: 'Spacious Layouts',
-    description: 'Spacious layouts ranging from 1950 to 3050 SQFT.',
+    description: 'Spacious layouts ranging from 2100 to 3200 SQFT.',
     icon: 'fa-solid fa-ruler-combined'
   },
   {
@@ -24,12 +24,12 @@ const highlights = [
   },
   {
     title: 'Exclusive Inventory',
-    description: 'Only 650 units with 4 to a core luxury apartments.',
+    description: 'Only 320 units with 4 to a core luxury apartments.',
     icon: 'fa-solid fa-house-chimney'
   },
   {
     title: 'Premium Clubhouse',
-    description: '1.75 lakh sq. ft. clubhouse based on a forest theme with luxury amenities.',
+    description: '70,000 sq. ft. multi-level clubhouse based on a forest theme with luxury amenities.',
     icon: 'fa-solid fa-champagne-glasses'
   },
 ]
