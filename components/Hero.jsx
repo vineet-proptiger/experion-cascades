@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import LeadForm from './LeadForm'
 import { heroSlides } from '../lib/images'
-import { RERA_NO, PHONE_NUMBER } from '../lib/config'
+import { PHONE_NUMBER } from '../lib/config'
 
 // Slides extended with clones at both ends for seamless infinite circular loop
 const extendedSlides = [
@@ -79,7 +79,7 @@ const Hero = ({ setIsOpen }) => {
                 {/* Brand Tagline & Location Row */}
                 <div className="flex flex-wrap items-center gap-2 sm:gap-3.5 text-xs sm:text-[13.5px] text-white/75 mt-1.5">
                   <span className="text-white/90 font-medium tracking-[2px] uppercase text-[11px] sm:text-xs">
-                    Japanese Wellness Living
+                    Japanese Inspired Living
                   </span>
                   <span className="text-white/30 hidden xs:inline">•</span>
                   <span className="inline-flex items-center gap-1.5 text-white/80 font-medium">
@@ -158,21 +158,6 @@ const Hero = ({ setIsOpen }) => {
                   </span>
                   <span className="text-emerald-400 font-extrabold tracking-wide whitespace-nowrap">
                     ₹21 Lakhs*
-                  </span>
-                </div>
-              </div>
-
-              {/* Project RERA Number Box */}
-              <div className="mt-2.5">
-                <div className="inline-flex items-center flex-wrap gap-x-2 gap-y-1 bg-white/[0.06] border border-white/15 rounded-lg py-2 px-3 sm:px-4 shadow-sm text-[12px] sm:text-[13.5px] backdrop-blur-sm transition-all hover:border-white/30 max-w-full">
-                  <div className="inline-flex items-center gap-1.5 shrink-0">
-                    <i className="fas fa-shield-halved text-emerald-400 text-[13px]" />
-                    <span className="text-white/70 font-medium whitespace-nowrap">
-                      RERA No:
-                    </span>
-                  </div>
-                  <span className="text-white font-bold tracking-wide">
-                    {RERA_NO}
                   </span>
                 </div>
               </div>

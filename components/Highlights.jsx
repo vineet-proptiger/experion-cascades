@@ -3,7 +3,7 @@ import React from 'react'
 
 const highlights = [
   {
-    title: 'Japanese Wellness Living',
+    title: 'Japanese Inspired Living',
     description: 'Theme inspired by Japanese living and wellness',
     icon: 'fa-solid fa-spa'
   },

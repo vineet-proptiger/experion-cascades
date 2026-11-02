@@ -14,7 +14,7 @@ const faqData = [
     question: 'Is Experion Emerelle Reserve RERA registered?',
     answer: (
       <>
-        Experion Emerelle Reserve has applied for RERA registration under HRERA Gurugram with ID: <strong className="font-semibold text-[#222222]">RERA-GRG-2348-2026</strong>. Buyers can verify the latest registration status on the official HRERA portal.
+        Experion Emerelle Reserve is an upcoming luxury residential project under HRERA registration. The RERA registration number is <strong className="font-semibold text-[#222222]">Coming Soon</strong>. Buyers can verify the latest registration status on the official HRERA portal or with the authorized sales desk.
       </>
     ),
   },

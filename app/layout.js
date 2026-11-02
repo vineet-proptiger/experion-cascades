@@ -42,13 +42,13 @@ const nephilm = localFont({
 export const metadata = {
   metadataBase: new URL('https://experioncascades88a.co.in'),
   title: 'Experion Emerelle Reserve Sector 88A Gurgaon | 3, 3.5 & 4 BHK',
-  description: 'Experion Emerelle Reserve at Sector 88A Dwarka Expressway Gurgaon offers luxury 3, 3.5 & 4 BHK apartments from ₹3.5 Cr*. Japanese wellness inspired living. Enquire now!',
+  description: 'Experion Emerelle Reserve at Sector 88A Dwarka Expressway Gurgaon offers luxury 3, 3.5 & 4 BHK apartments from ₹3.5 Cr*. Japanese inspired living. Enquire now!',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Experion Emerelle Reserve Sector 88A Gurgaon | 3, 3.5 & 4 BHK',
-    description: 'Experion Emerelle Reserve at Sector 88A Dwarka Expressway Gurgaon offers luxury 3, 3.5 & 4 BHK apartments from ₹3.5 Cr*. Japanese wellness inspired living. Enquire now!',
+    description: 'Experion Emerelle Reserve at Sector 88A Dwarka Expressway Gurgaon offers luxury 3, 3.5 & 4 BHK apartments from ₹3.5 Cr*. Japanese inspired living. Enquire now!',
     url: 'https://experioncascades88a.co.in',
     siteName: 'Experion Emerelle Reserve',
     type: 'website',
