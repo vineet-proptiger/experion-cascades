@@ -19,7 +19,7 @@ const VirtualTour = ({ setIsOpen }) => {
     >
       <Image
         src={virtualTourImage}
-        alt="Experion Cascades Virtual Tour"
+        alt="Experion Emerelle Reserve Virtual Tour"
         fill
         className="object-cover"
         quality={100}

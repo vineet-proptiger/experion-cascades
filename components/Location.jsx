@@ -3,28 +3,28 @@ import React from 'react'
 
 const locationList = [
   {
-    title: 'Millennium City Centre',
-    time: '30 Mins',
-  },
-  {
-    title: 'IFFCO Chowk',
-    time: '25 Mins',
-  },
-  {
-    title: 'Medanta - The Medicity',
-    time: '20 Mins',
+    title: 'Upcoming Global City',
+    time: 'Opposite (1 Min)',
   },
   {
     title: 'Dwarka Expressway',
-    time: '5 Mins',
+    time: 'Bang On',
+  },
+  {
+    title: 'IGI Airport',
+    time: '25 Mins',
   },
   {
     title: 'NH-48',
     time: '20 Mins',
   },
   {
-    title: 'IGI Airport',
-    time: '25 Mins',
+    title: 'Millennium City Centre',
+    time: '30 Mins',
+  },
+  {
+    title: 'Medanta - The Medicity',
+    time: '20 Mins',
   },
 ]
 
@@ -86,7 +86,7 @@ const Location = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
-              title="Experion Cascades Google Maps Location"
+              title="Experion Emerelle Reserve Google Maps Location"
               className="w-full h-full block"
             />
           </div>

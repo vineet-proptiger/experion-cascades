@@ -5,10 +5,10 @@
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════
-   THEME VARIABLES — Experion Cascades
+   THEME VARIABLES — Experion Emerelle Reserve
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Experion Cascades Blue Accent Palette ── */
+  /* ── Experion Emerelle Reserve Blue Accent Palette ── */
   --color-gold: #8DC63F;
   --color-gold-light: #8DC63F;
   --color-gold-dark: #4F8519;
@@ -216,7 +216,7 @@
     color: inherit;
   }
 
-  /* ── Experion Cascades Blue scrollbar ── */
+  /* ── Experion Emerelle Reserve Blue scrollbar ── */
   ::-webkit-scrollbar {
     width: 6px;
   }
@@ -558,7 +558,7 @@
   }
 }
 
-/* ─── Experion Cascades Hero Styles ─────────────────────────────────── */
+/* ─── Experion Emerelle Reserve Hero Styles ─────────────────────────────────── */
 .hero-section {
   font-family: var(--font-poppins), 'Poppins', sans-serif;
 }

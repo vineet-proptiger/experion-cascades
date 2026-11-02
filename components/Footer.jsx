@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
+import { RERA_NO } from '../lib/config'
 
 const Footer = () => (
   <footer style={{ background: '#0a0a0a', color: '#ffffff', fontFamily: 'var(--font-poppins), Poppins, sans-serif' }} className="py-16 px-4 sm:px-6 md:px-10 border-t border-white/10">
@@ -44,7 +45,7 @@ const Footer = () => (
           RERA No :
         </span>
         <span className="text-white font-bold text-[14px] sm:text-[15.5px] tracking-wide">
-          Coming Soon
+          {RERA_NO}
         </span>
       </div>
 

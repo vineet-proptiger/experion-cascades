@@ -3,19 +3,19 @@ import React, { useState } from 'react'
 
 const plansData = [
   {
-    title: '30 : 40 : 30',
-    line1: 'Year 1 — ₹80 Lacs',
-    line2: 'Year 2 — Nil',
+    title: '25 : 75 (EOI)',
+    line1: 'Exclusive EOI Booking Plan',
+    line2: 'Pre-Launch Benefits ₹21 Lakhs*',
   },
   {
-    title: 'CLP 20 × 5',
-    line1: 'Year 1 — ₹45 Lacs',
-    line2: 'Year 2 — ₹45 Lacs',
+    title: '20 : 30 : 50',
+    line1: 'Attractive Payment Plan',
+    line2: 'Linked with Construction Milestones',
   },
   {
-    title: 'Subvention',
-    line1: 'Easy Entry',
-    line2: 'Bank Backed Plan',
+    title: 'Customized Plans',
+    line1: 'Flexible Payment Schedule',
+    line2: 'Bank Loan Assistance Available',
   },
 ]
 

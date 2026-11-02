@@ -4,18 +4,24 @@ import React from 'react'
 const pricingData = [
   {
     type: '3 BHK',
-    area: 'On Request',
-    price: '₹ 3 Cr*',
+    subType: '3 BHK residence',
+    area: '2,150–2,200 sq.ft',
+    rate: '₹16,500/sq.ft',
+    price: '₹ 3.5 Cr* onwards',
   },
   {
-    type: '3.5 BHK',
-    area: 'On Request',
-    price: 'On Request',
+    type: '3 BHK + Utility',
+    subType: '3.5 BHK residence',
+    area: '2,450–2,500 sq.ft',
+    rate: '₹16,500/sq.ft',
+    price: 'Price on Request',
   },
   {
-    type: '4 BHK',
-    area: 'On Request',
-    price: 'On Request',
+    type: '4 BHK + Utility',
+    subType: '4 BHK residence',
+    area: '2,950–3,100 sq.ft',
+    rate: '₹16,500/sq.ft',
+    price: 'Price on Request',
   },
 ]
 
@@ -47,21 +53,38 @@ const Pricing = ({ setIsOpen }) => {
               <div>
                 {/* Top Header: Unit Type & Area Tag */}
                 <div className="flex items-center justify-between gap-2 pb-4 border-b border-[#f1f5f9] mb-4">
-                  <h3 className="text-[#1a1a1a] font-black text-[20px] sm:text-[22px] m-0">
-                    {item.type}
-                  </h3>
+                  <div>
+                    <h3 className="text-[#1a1a1a] font-black text-[20px] sm:text-[22px] m-0">
+                      {item.type}
+                    </h3>
+                    {item.subType && (
+                      <span className="text-[#6c757d] text-[12.5px] font-medium block mt-0.5">
+                        {item.subType}
+                      </span>
+                    )}
+                  </div>
                   <span className="bg-[#8DC63F]/15 text-[#4F8519] text-[12.5px] sm:text-[13.5px] font-extrabold px-3.5 py-1.5 rounded-full shadow-sm whitespace-nowrap">
                     {item.area}
                   </span>
                 </div>
 
-                {/* Estimated Price Block */}
-                <div className="mb-6">
-                  <span className="text-[11.5px] text-[#6c757d] font-bold uppercase tracking-wider block mb-1">
-                    ESTIMATED PRICE
-                  </span>
-                  <div className="text-[#222222] font-black text-[24px] tracking-tight">
-                    {item.price}
+                {/* Rate & Price Info Block */}
+                <div className="grid grid-cols-2 gap-3 mb-6 bg-gray-50 p-3.5 rounded-xl border border-gray-100">
+                  <div>
+                    <span className="text-[11px] text-[#6c757d] font-bold uppercase tracking-wider block mb-0.5">
+                      LAUNCH RATE
+                    </span>
+                    <div className="text-[#1a1a1a] font-bold text-[16px]">
+                      {item.rate}
+                    </div>
+                  </div>
+                  <div>
+                    <span className="text-[11px] text-[#6c757d] font-bold uppercase tracking-wider block mb-0.5">
+                      INDICATIVE PRICE
+                    </span>
+                    <div className={`font-black text-[16px] tracking-tight ${index === 0 ? 'text-[#4F8519]' : 'text-[#222222]'}`}>
+                      {item.price}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -96,18 +119,27 @@ const Pricing = ({ setIsOpen }) => {
           <table className="w-full text-center border-collapse whitespace-nowrap">
             <thead>
               <tr style={{ background: '#00558A', color: '#ffffff' }}>
-                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0 w-1/4">UNIT TYPE</th>
-                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0 w-1/4">SIZE</th>
-                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0 w-1/4">ESTIMATED PRICE</th>
-                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0 w-1/4">ACTION</th>
+                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0">CONFIGURATION</th>
+                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0">SIZE (APPROX.)</th>
+                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0">LAUNCH RATE</th>
+                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0">INDICATIVE PRICE</th>
+                <th className="py-5 px-6 font-bold text-[13.5px] tracking-wider uppercase border-b-0">ACTION</th>
               </tr>
             </thead>
             <tbody className="text-[#222222] divide-y divide-[#f0f0f0]">
               {pricingData.map((item, index) => (
                 <tr key={index} className="hover:bg-[#fafafa] transition-colors duration-200">
-                  <td className="py-6 px-6 font-extrabold text-[18px] text-[#1a1a1a]">{item.type}</td>
-                  <td className="py-6 px-6 text-[15.5px] font-semibold text-[#495057]">{item.area}</td>
-                  <td className="py-6 px-6 font-black text-[18px] text-[#222222]">{item.price}</td>
+                  <td className="py-6 px-6 font-extrabold text-[17px] text-[#1a1a1a]">
+                    <div>{item.type}</div>
+                    {item.subType && (
+                      <div className="text-[12.5px] text-[#6c757d] font-normal mt-0.5">{item.subType}</div>
+                    )}
+                  </td>
+                  <td className="py-6 px-6 text-[15px] font-semibold text-[#495057]">{item.area}</td>
+                  <td className="py-6 px-6 text-[15px] font-bold text-[#1a1a1a]">{item.rate}</td>
+                  <td className={`py-6 px-6 font-black text-[17.5px] ${index === 0 ? 'text-[#4F8519]' : 'text-[#222222]'}`}>
+                    {item.price}
+                  </td>
                   <td className="py-6 px-6">
                     <button 
                       onClick={() => setIsOpen(true)}

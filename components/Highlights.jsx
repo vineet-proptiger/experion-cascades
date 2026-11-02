@@ -3,34 +3,34 @@ import React from 'react'
 
 const highlights = [
   {
-    title: 'Prime Location',
-    description: 'Luxury 3, 3.5 & 4 BHK apartments located in Sector 88A, Dwarka Expressway, Gurgaon.',
-    icon: 'fa-solid fa-location-dot'
+    title: 'Japanese Wellness Living',
+    description: 'Theme inspired by Japanese living and wellness',
+    icon: 'fa-solid fa-spa'
   },
   {
-    title: 'Spacious Layouts',
-    description: 'Spacious layouts ranging from 2100 to 3200 SQFT.',
+    title: 'Privacy & Low Density',
+    description: 'Only 4 homes per core for privacy',
+    icon: 'fa-solid fa-house-chimney-window'
+  },
+  {
+    title: 'Dwarka Expressway',
+    description: 'Bang on Dwarka Expressway',
+    icon: 'fa-solid fa-road'
+  },
+  {
+    title: 'Upcoming Global City',
+    description: 'Opposite upcoming Global City',
+    icon: 'fa-solid fa-city'
+  },
+  {
+    title: 'Expansive Layouts',
+    description: 'Homes from 2150 to 3100 sq.ft',
     icon: 'fa-solid fa-ruler-combined'
   },
   {
-    title: 'Expansive Area',
-    description: 'Spread over a 7.8 acres of land parcel, divided into multiple phases.',
-    icon: 'fa-solid fa-tree'
-  },
-  {
-    title: 'Sky-High Living',
-    description: 'Four high-rise towers with a G+40 floor structure.',
-    icon: 'fa-solid fa-building'
-  },
-  {
-    title: 'Exclusive Inventory',
-    description: 'Only 320 units with 4 to a core luxury apartments.',
-    icon: 'fa-solid fa-house-chimney'
-  },
-  {
-    title: 'Premium Clubhouse',
-    description: '70,000 sq. ft. multi-level clubhouse based on a forest theme with luxury amenities.',
-    icon: 'fa-solid fa-champagne-glasses'
+    title: '100% FDI-Funded Developer',
+    description: '100% FDI-funded developer',
+    icon: 'fa-solid fa-shield-halved'
   },
 ]
 
@@ -45,7 +45,7 @@ const Highlights = ({ setIsOpen }) => {
             PROJECT HIGHLIGHTS
           </span>
           <h2 className="text-[#111111] text-[26px] sm:text-[32px] md:text-[38px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
-            Highlights of Experion Cascades
+            Highlights of Experion Emerelle Reserve
           </h2>
         </div>
 

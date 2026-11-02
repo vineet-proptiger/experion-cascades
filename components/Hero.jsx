@@ -71,7 +71,7 @@ const Hero = ({ setIsOpen }) => {
               <div className="mb-3 sm:mb-4">
                 <div className="flex flex-wrap items-baseline gap-2.5 sm:gap-3.5 mb-1.5">
                   <h1 className="text-white font-black tracking-tight leading-[1.08] text-[24px] xs:text-[28px] sm:text-[34px] md:text-[40px] m-0">
-                    EXPERION CASCADES 
+                    EXPERION EMERELLE RESERVE
                   </h1>
                   
                 </div>
@@ -79,12 +79,12 @@ const Hero = ({ setIsOpen }) => {
                 {/* Brand Tagline & Location Row */}
                 <div className="flex flex-wrap items-center gap-2 sm:gap-3.5 text-xs sm:text-[13.5px] text-white/75 mt-1.5">
                   <span className="text-white/90 font-medium tracking-[2px] uppercase text-[11px] sm:text-xs">
-                    Luxury Redefined
+                    Japanese Wellness Living
                   </span>
                   <span className="text-white/30 hidden xs:inline">•</span>
                   <span className="inline-flex items-center gap-1.5 text-white/80 font-medium">
                     <i className="fas fa-location-dot text-[#8DC63F] text-[11px]" />
-                    <span>Sector 88A,Dwarka Expressway, Gurgaon</span>
+                    <span>Sector 88A, Dwarka Expressway, Gurugram</span>
                   </span>
                 </div>
               </div>
@@ -140,14 +140,38 @@ const Hero = ({ setIsOpen }) => {
                 })}
               </div>
 
-              {/* Project RERA Number Box */}
-              <div className="mt-4">
-                <div className="inline-flex items-center bg-white/[0.06] border border-white/15 rounded-lg py-2.5 px-4 shadow-sm text-xs sm:text-[13.5px] backdrop-blur-sm transition-all hover:border-white/30">
-                  <i className="fas fa-shield-halved text-emerald-400 mr-2 text-[13px]" />
-                  <span className="text-white/70 mr-1.5 font-medium">
-                    RERA No :
+              {/* Attractive Payment Plan & Pre-Launch Benefits */}
+              <div className="mt-3 flex flex-wrap items-center gap-2 sm:gap-2.5">
+                <div className="inline-flex items-center gap-1.5 bg-white/[0.08] border border-[#8DC63F]/40 rounded-lg py-1.5 px-3 sm:px-3.5 shadow-sm text-[12px] sm:text-[13px] backdrop-blur-sm">
+                  <i className="fas fa-wallet text-[#8DC63F] text-[12px] shrink-0" />
+                  <span className="text-white/80 font-medium whitespace-nowrap">
+                    Attractive Payment Plan:
                   </span>
-                  <span className="text-white font-bold tracking-wider">
+                  <span className="text-white font-extrabold tracking-wide whitespace-nowrap">
+                    20:30:50
+                  </span>
+                </div>
+                <div className="inline-flex items-center gap-1.5 bg-white/[0.08] border border-emerald-400/40 rounded-lg py-1.5 px-3 sm:px-3.5 shadow-sm text-[12px] sm:text-[13px] backdrop-blur-sm">
+                  <i className="fas fa-gift text-emerald-400 text-[12px] shrink-0" />
+                  <span className="text-white/80 font-medium whitespace-nowrap">
+                    Pre-Launch Benefits:
+                  </span>
+                  <span className="text-emerald-400 font-extrabold tracking-wide whitespace-nowrap">
+                    ₹21 Lakhs*
+                  </span>
+                </div>
+              </div>
+
+              {/* Project RERA Number Box */}
+              <div className="mt-2.5">
+                <div className="inline-flex items-center flex-wrap gap-x-2 gap-y-1 bg-white/[0.06] border border-white/15 rounded-lg py-2 px-3 sm:px-4 shadow-sm text-[12px] sm:text-[13.5px] backdrop-blur-sm transition-all hover:border-white/30 max-w-full">
+                  <div className="inline-flex items-center gap-1.5 shrink-0">
+                    <i className="fas fa-shield-halved text-emerald-400 text-[13px]" />
+                    <span className="text-white/70 font-medium whitespace-nowrap">
+                      RERA No:
+                    </span>
+                  </div>
+                  <span className="text-white font-bold tracking-wide">
                     {RERA_NO}
                   </span>
                 </div>
@@ -170,7 +194,7 @@ const Hero = ({ setIsOpen }) => {
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-[#8DC63F]"></span>
                     </span>
                     <strong className="blink-price font-black text-[14.5px] sm:text-[19px] whitespace-nowrap tracking-tight">
-                      ₹ 3 Cr* Onwards
+                      ₹ 3.5 Cr* Onwards
                     </strong>
                   </div>
                 </div>
@@ -206,7 +230,7 @@ const Hero = ({ setIsOpen }) => {
                 </div>
 
                 {/* LeadForm */}
-                <LeadForm formName="Experion Cascades Form" btnText="Submit" />
+                <LeadForm formName="Experion Emerelle Reserve Form" btnText="Submit" />
 
                 {/* Instant Actions (Call & Visit on Mobile) */}
                 <div className="mt-3.5 pt-3.5 border-t border-white/10 flex items-center justify-between text-[11.5px] sm:text-xs text-white/80">

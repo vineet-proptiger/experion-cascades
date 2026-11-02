@@ -3,38 +3,38 @@ import React, { useState } from 'react'
 
 const faqData = [
   {
-    question: 'What configurations are available at Experion Cascades?',
+    question: 'What configurations are available at Experion Emerelle Reserve?',
     answer: (
       <>
-        Experion Cascades offers spacious <strong className="font-semibold text-[#222222]">3, 3.5 &amp; 4 BHK luxury apartments</strong> with modern layouts, premium interiors, and large balconies. The residences are thoughtfully designed to maximize natural light, ventilation, and comfortable living for modern families.
+        Experion Emerelle Reserve offers spacious <strong className="font-semibold text-[#222222]">3 BHK, 3 BHK+Utility &amp; 4 BHK+Utility luxury residences</strong> ranging from 2,150 to 3,100 sq.ft with Japanese living and wellness concepts. The residences are thoughtfully planned with only 4 apartments per core for privacy and low-density living.
       </>
     ),
   },
   {
-    question: 'Is Experion Cascades RERA registered?',
+    question: 'Is Experion Emerelle Reserve RERA registered?',
     answer: (
       <>
-        Experion Cascades is an upcoming luxury residential project under HRERA registration. Buyers are advised to verify the latest RERA registration status and project details on the official Haryana RERA (HARERA) portal or with the authorized sales desk.
+        Experion Emerelle Reserve has applied for RERA registration under HRERA Gurugram with ID: <strong className="font-semibold text-[#222222]">RERA-GRG-2348-2026</strong>. Buyers can verify the latest registration status on the official HRERA portal.
       </>
     ),
   },
   {
-    question: 'How tall is Experion Cascades and how many towers does it have?',
+    question: 'How tall is Experion Emerelle Reserve and how many towers does it have?',
     answer:
-      'Experion Cascades is a premium high-rise development spread across 7.8 acres featuring 4 high-rise towers with a G+40 floor structure and exclusive 4 to a core luxury apartments (approx. 320 units).',
+      'Experion Emerelle Reserve is spread across about 7.8 acres, featuring 5 high-rise towers rising up to G+40 floors with approximately 800 premium residences (Phase 1 features 3 towers) and only 4 homes per core.',
   },
   {
-    question: 'Where exactly is Experion Cascades located?',
+    question: 'Where exactly is Experion Emerelle Reserve located?',
     answer: (
       <>
-        Experion Cascades is strategically located in <strong className="font-semibold text-[#222222]">Sector 88A, Dwarka Expressway, Gurgaon</strong>, offering seamless connectivity to <strong className="font-semibold text-[#222222]">Dwarka Expressway, NH-48, CPR, IGI Airport, Cyber City, and Delhi</strong>. The location is surrounded by top schools, hospitals, shopping malls, and corporate hubs.
+        Experion Emerelle Reserve is strategically located bang on <strong className="font-semibold text-[#222222]">Dwarka Expressway in Sector 88A, Gurugram</strong>, directly opposite the upcoming <strong className="font-semibold text-[#222222]">Global City</strong>, providing seamless access to NH-48, CPR, IGI Airport, and Delhi.
       </>
     ),
   },
   {
-    question: 'Is Experion Cascades a good investment?',
+    question: 'Is Experion Emerelle Reserve a good investment?',
     answer:
-      "Yes, Experion Cascades is considered a prime investment opportunity due to its strategic location in Sector 88A on the Dwarka Expressway corridor, expansive 70,000 sq. ft. forest-themed multi-level clubhouse, luxury specifications, and high capital appreciation potential in New Gurgaon.",
+      "Yes, Experion Emerelle Reserve is considered a prime luxury investment opportunity due to its premier address opposite Global City on the Dwarka Expressway corridor, 100% FDI-funded developer credibility, Japanese wellness architecture, and high capital appreciation potential.",
   },
 ]
 

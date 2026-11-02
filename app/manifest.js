@@ -1,7 +1,7 @@
 export default function manifest() {
   return {
-    name: 'Experion Cascades',
-    short_name: 'Experion Cascades 88A',
+    name: 'Experion Emerelle Reserve',
+    short_name: 'Experion Emerelle',
     description: 'Luxury 3, 3.5 & 4 BHK Residences in Sector 88A, Gurgaon',
     start_url: '/',
     display: 'standalone',

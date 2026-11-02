@@ -43,7 +43,7 @@ const Navbar = ({ setIsOpen }) => {
           <a href="#home" className="flex items-center shrink-0">
             <img
               src={logoImages.main}
-              alt="Experion Cascades"
+              alt="Experion Emerelle Reserve"
               style={{ height: 'clamp(42px, 6vw, 56px)', width: 'auto', objectFit: 'contain' }}
             />
           </a>
