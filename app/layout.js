@@ -62,7 +62,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-WCBT5KRZ" />
+      <GoogleTagManager gtmId="GTM-575H8R87" />
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
       </head>
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-WCBT5KRZ"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-575H8R87"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
